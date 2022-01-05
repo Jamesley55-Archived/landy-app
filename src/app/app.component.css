@@ -1,0 +1,17 @@
+.header h1 {
+  padding: 30px;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 3px 3px 3px rgb(136, 118, 118);
+}
+.gif {
+  margin-top: 10px;
+  width: 60px;
+  position: sticky;
+  top: 0;
+}
+
+.app-component-div {
+  padding-bottom: 50px;
+}
