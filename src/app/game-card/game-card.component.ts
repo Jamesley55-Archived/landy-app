@@ -8,17 +8,10 @@ import { Component, OnInit,Input } from '@angular/core';
 export class GameCardComponent implements OnInit {
   @Input()
   jeu!: string;
-  @Input()
-  link! : string; 
   nomDeJeu !: string[];
   constructor() { }
 
   ngOnInit(): void {
     this.nomDeJeu =  this.jeu.split(' ')
-  }
-
-  event(): void {
-    window.location.href=this.link;
-
   }
 }
