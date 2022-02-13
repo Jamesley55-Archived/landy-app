@@ -1,20 +1,30 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #222;
-    overflow: hidden;
-  }
-  svg {
-    width: 100vw;
-    height: 85vh;
-  }
-  path {
-    fill: rgb(73, 156, 95);
-    cursor: pointer;
-  }
-  path:hover {
-    fill: rgb(150, 219, 241);
-  }
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  overflow: hidden;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+svg {
+  width: 100vw;
+  height: 85vh;
+}
+path {
+  fill: rgb(113, 130, 187);
+  cursor: pointer;
+}
+.active {
+  fill: rgb(253, 90, 90);
+}
