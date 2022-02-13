@@ -10,12 +10,23 @@
   }
   .gif {
     margin-top: 10px;
-    width: 90px;
+    width: 130px;
     position: sticky;
     top: 0;
   }
   
   .app-component-div {
     padding-bottom: 50px;
+  }
+  .justify-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .justify-center{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
   }
   

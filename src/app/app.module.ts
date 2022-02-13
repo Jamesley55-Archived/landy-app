@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, Input } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,9 @@ import { SonComponent } from './son/son.component';
 import { TiktaktoComponent } from './tiktakto/tiktakto.component';
 import { MemoireComponent } from './memoire/memoire.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +26,18 @@ import { MainPageComponent } from './main-page/main-page.component';
     SonComponent,
     TiktaktoComponent,
     MemoireComponent,
-    MainPageComponent
+    MainPageComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, 
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    ReactiveFormsModule, 
+    MatFormFieldModule, 
+    MatInputModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,10 @@
 .jeu1-card {
   margin: 70px;
   padding: 70px;
-  border: 1px solid pink;
+  width: 40%;
+  border: 1px solid rgb(8, 5, 6);
   border-radius: 10px;
+  width: 20vw;
 }
 .text {
   justify-content: center;
@@ -23,12 +25,11 @@
 // Landy cette parti c'est poour l'animation des lettre de jeux essai pas de comprendre ce que j'ai fais c'est trop avancer pour toi
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 .animation {
-  width: 70vw;
   text-align: center;
   span {
     -webkit-text-stroke-width: 1.25px;
     -webkit-text-stroke-color: #000;
-    font-size: 60px;
+    font-size: 45px;
     text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
     transform: translate(0, 100%) rotate(4deg);
     animation: jump 2s ease-in-out infinite;
@@ -45,14 +46,14 @@
 }
 @keyframes jump {
   33% {
-    text-shadow: 0 20px #f37121, 0 60px #f2aaaa;
+    text-shadow: 0 20px #f37121, 0 60px #f5190a;
   }
   50% {
     transform: translate(0, 0) rotate(-4deg);
-    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+    text-shadow: 0 0px #ffee54, 0 0px #00de64;
   }
   66.67% {
-    text-shadow: 0 -20px #d54062, 0 -60px #8fc0a9;
+    text-shadow: 0 -20px #ef9eff, 0 -60px #4287f5;
   }
 }
 html {

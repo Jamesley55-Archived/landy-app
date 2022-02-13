@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
-  title = 'Projet';
+  title = 'Noétique';
   jeu1 = 'Pays';
   jeu2 = 'Espace';
   jeu3 = 'Puzzle';

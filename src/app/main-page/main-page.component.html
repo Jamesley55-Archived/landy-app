@@ -6,9 +6,15 @@
     <div class="header">
       <h1>{{ title }}</h1>
     </div>
-    <game-card [jeu]="jeu1" routerLink="/monde"></game-card>
-    <game-card [jeu]="jeu2" routerLink="/espace"></game-card>
-    <game-card [jeu]="jeu3" routerLink="/tiktakto" ></game-card>
-    <game-card [jeu]="jeu4" routerLink="/son"></game-card>
+    <div class="justify-row">
+      <game-card [jeu]="jeu1" routerLink="/monde"></game-card>
+      <game-card [jeu]="jeu2" routerLink="/espace"></game-card>
+    </div>
+    <div class='justify-row'>
+      <game-card [jeu]="jeu3" routerLink="/tiktakto" ></game-card>
+      <game-card [jeu]="jeu4" routerLink="/son"></game-card>
+    </div>
+    <div class="justify-center">
     <game-card [jeu]="jeu5" routerLink="/memoire"></game-card>
+    </div>
   </div>

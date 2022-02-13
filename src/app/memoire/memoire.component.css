@@ -30,8 +30,9 @@ html, body, div, span, applet, object, iframe,
   -o-user-select: none;
   user-select: none;
  }
- html{
+ body{
   background-image: url('https://github.com/Em-Ant/fcc-course/raw/master/front-end_cert/projects/advanced/04-simon-game/images/retina_wood.png');
+
  }
 .inline{
   display: inline-block;
