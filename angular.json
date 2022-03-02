@@ -31,7 +31,9 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/espace.js"
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/espace.js",       
+              "src/assets/simon.js"
             ]
           },
           "configurations": {
