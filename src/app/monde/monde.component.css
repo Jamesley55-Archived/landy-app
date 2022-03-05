@@ -6,11 +6,16 @@ body {
   align-items: center;
   background: #222;
   overflow: hidden;
+  position: fixe;
+}
+#temp h1{
+  font-weight: bold;
+font-size: 40px;
 }
 .center {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 .header {
   display: flex;

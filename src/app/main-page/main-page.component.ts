@@ -14,9 +14,6 @@ export class MainPageComponent implements OnInit {
   jeu3 = 'Puzzle';
   jeu4 = 'Son';
   jeu5 = 'Mémoire';
-  Linkjeu1 = 'https://www.youtube.com/';
-  Linkjeu2 = 'https://www.google.com/';
-  Linkjeu3 = 'https://www.tiktok.com/';
-  Linkjeu4 = 'https://instagram.com	';
+
 
 }
